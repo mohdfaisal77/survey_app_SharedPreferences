@@ -299,16 +299,7 @@ SizedBox(height: 20,),
                               labelText: "AWS Cloud Experience"),
                         ),
                       ]else if(surveyModel.CompanyAppliedFor == 'other') ...[
-                        TextFormField(
-                          controller: amazonLeadershipController,
-                          onChanged: (value) {
-                            setState(() {
-                              surveyModel.amazonLeadershipExperience = value;
-                            });
-                          },
-                          decoration: InputDecoration(
-                              labelText: "Mention Skills and Experience in Years"),
-                        ),
+                        Container()
                       ],
               SizedBox(height: 20,),
                   Row(
@@ -334,17 +325,7 @@ SizedBox(height: 20,),
                   ),
                   SizedBox(height: 10),
                   if (surveyModel.roleAppliedFor == 'Other') ...[
-                    TextFormField(
-                      controller: roleAppliedForController,
-                      onChanged: (value) {
-                        setState(() {
-                          surveyModel.roleAppliedFor = value;
-                        });
-                      },
-                      decoration: InputDecoration(
-                        border: OutlineInputBorder(),
-                          labelText: "Mention your Role and Skills"),
-                    ),
+                    Container(),
                     SizedBox(height: 20,),
                   ] else
                     if (surveyModel.roleAppliedFor == 'Developer') ...[
