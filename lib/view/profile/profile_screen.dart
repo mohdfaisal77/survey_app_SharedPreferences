@@ -34,6 +34,14 @@ class ProfileScreen extends StatelessWidget {
           ),
           SizedBox(height: 20),
           Center(
+            child: Text("Contact : 7839309007"),
+          ),
+          SizedBox(height: 20),
+          Center(
+            child: Text("Office : HCL Tech"),
+          ),
+          SizedBox(height: 20),
+          Center(
             child: Text("Address : Malihabad Lucknow"),
           ),
           SizedBox(height: 20),
