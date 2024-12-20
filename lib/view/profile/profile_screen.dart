@@ -40,6 +40,12 @@ class ProfileScreen extends StatelessWidget {
           Center(
             child: Text("User Logged In successfully"),
           ),
+          Center(
+            child: Text("College : MUIT"),
+          ),
+          Center(
+            child: Text("College  location: Sitapur"),
+          ),
         ],
       ),
     );
