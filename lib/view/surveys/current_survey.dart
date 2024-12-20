@@ -113,6 +113,8 @@ class _SurveyFormState extends State<SurveyForm> {
     surveys.add(surveyModel.toMap().toString());
     await prefs.setStringList('surveys', surveys);
 
+
+
     // Update survey count
     int surveyCount = surveys.length;
     await prefs.setInt('survey_count', surveyCount);
@@ -192,14 +194,12 @@ class _SurveyFormState extends State<SurveyForm> {
                   ),
 
                   SizedBox(height: 10,),
-                  // Gender Dropdown
-                Row(
+                  Row(
                   children: [
                     Text("Gender : ",style: TextStyle(fontWeight: FontWeight.w700),),
                     SizedBox(width: 20,),
                     DropdownButton<String>(
 borderRadius: BorderRadius.circular(10),
-
                       value: surveyModel.gender.isEmpty ? null : surveyModel.gender,
                       hint: Text("Other",),
                       items: ['Other', 'Male', 'Female'].map((gender) {

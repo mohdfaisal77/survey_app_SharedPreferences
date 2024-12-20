@@ -40,7 +40,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.assessment_outlined),
-            label: 'Survey',  // This will take you to the survey form
+            label: 'Survey',  // This will take you to th survey form
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),

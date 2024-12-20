@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: ElevatedButton(
                   onPressed: _submitForm,
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.blueAccent
+                    backgroundColor: Colors.blueAccent
                   ),
                   child: Container(
                     width: double.infinity,

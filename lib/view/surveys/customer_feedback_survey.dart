@@ -291,7 +291,7 @@ SizedBox(height: 10,),
                 // Submit Button
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      primary: Colors.blueAccent
+                      backgroundColor: Colors.blueAccent
                   ),
                onPressed: (){
                  if (_formKey.currentState!.validate()) {
