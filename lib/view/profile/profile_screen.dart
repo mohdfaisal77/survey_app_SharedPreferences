@@ -15,7 +15,6 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Profile'),
         centerTitle: true,
         backgroundColor: Colors.blueAccent,
         actions: [
@@ -31,6 +30,14 @@ class ProfileScreen extends StatelessWidget {
         children: [
           Center(
             child: Text("Name : Mohd Faisal"),
+          ),
+          SizedBox(height: 20),
+          Center(
+            child: Text("Contact : 7839309007"),
+          ),
+          SizedBox(height: 20),
+          Center(
+            child: Text("Office : HCL Tech"),
           ),
           SizedBox(height: 20),
           Center(
